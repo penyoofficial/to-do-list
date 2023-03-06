@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待做事项</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="built-in-alert.css">
+    <script src="built-in-alert.js"></script>
+</head>
+
+<body>
+    <div id="top-bar">
+        <h1 class="title">To&nbsp;Do&nbsp;List</h1>
+    </div>
+    <div id="tasks"></div>
+    <div id="add-task">+</div>
+    <div id="new-task">
+        <input id="title" type="text" placeholder="标题">
+        <textarea id="discription" placeholder="描述"></textarea>
+        <select id="urgency">
+            <option value="">--紧迫度--</option>
+            <option value="emergency">紧急</option>
+            <option value="daily">日常</option>
+            <option value="weekly">周常</option>
+            <option value="normal">一次性</option>
+        </select>
+        <button id="submit">提交</button>
+    </div>
+</body>
+
+<script src="global.js"></script>
+
+</html>
